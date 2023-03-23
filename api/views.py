@@ -28,3 +28,7 @@ class CompanyViews(viewsets.ModelViewSet):
 class EmployeeViews(viewsets.ModelViewSet):
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer 
+
+
+
+    ######################################################################################
